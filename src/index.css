@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+#selection-ref { 
+  position: absolute;
+  
+  /* debug only styles */
+  background: rgba(200,0,0,0.2);
+  pointer-events: none;
+}
+
+.is-active {
+  background: tomato;
+}
