@@ -4,7 +4,9 @@ export const Container = styled.div`
   flex: 1;
   
   display: flex;
+  flex-direction: column;
   overflow: auto;
+  width: 320px;
 `;
 
 export const List = styled.div`
